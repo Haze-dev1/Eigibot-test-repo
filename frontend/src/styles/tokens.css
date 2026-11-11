@@ -1,0 +1,28 @@
+:root {
+  /* base */
+  --bg: #0c0d0b;
+  --bg-raised: #121410;
+  --bg-sunken: #080908;
+  --ink: #eceee8;
+  --ink-dim: #9ba092;
+  --ink-faint: #5c6155;
+  /* signature accent: electric lime */
+  --accent: #c8f04b;
+  --accent-ink: #141805;
+  --accent-dim: rgba(200, 240, 75, 0.14);
+  /* warmth */
+  --warm: #d8c9a3;
+  /* structure */
+  --hairline: rgba(236, 238, 232, 0.09);
+  --hairline-strong: rgba(236, 238, 232, 0.16);
+  --danger: #f06a5e;
+  /* type */
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  /* motion */
+  --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fast: 160ms;
+  --med: 320ms;
+}
